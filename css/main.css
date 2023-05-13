@@ -1,9 +1,12 @@
 /***** BASE STYLES *****/
+/*** {
+    outline: 1px solid red;
+}
+**/
 
 body {
-    color: #2b2b2b;
+    color: #727272;
     font-family: 'Sourse Sans Pro', sans-serif;
-    
 }
 
 #about, #work, #contact {
@@ -15,7 +18,7 @@ body {
 .full-width {
     margin: 0 auto;
     width: 1200px;
-    
+    overflow: auto;
 }
 
 .half-width {
@@ -32,35 +35,39 @@ body {
 
 /***** HEADER SECTION *****/
 
-header {
+.homepage-hero {
     background: url("../img/full-background.png");
     background-size: cover;
     height: 800px;
 }
 
 header h1 {
-    color: #BBC085;
+    color: #7b7354;
     font-family: 'Lora', serif;
     font-size: 30px;
     font-weight: 400;
     padding: 65px 0 65px 25px;
+    clear: both;
 }
 
 nav {
     float: right;
-    padding: 75px 25px;
+    padding: 83px 25px;
+    width: 900px;
 }
 
 nav ul li {
     display: inline-block;
+    text-decoration: underline;
+    padding-left: 30px;
 }
 
 nav ul li a {
-    color: #828282;
+    color: #727172;
     font-size: 18px;
     text-decoration: solid;
     text-transform: uppercase;
-    padding-left: 80px;
+    padding-left: 50px;
 }
 
 header h2 {
@@ -130,11 +137,11 @@ header h2 span {
 /***** CONTACT SECTION *****/
 
 #contact {
-    background-color: #EBEBEB;
+    background-color: #f9efef;
 }
 
 #contact .full-width {
-    padding: 110px 0;
+    padding: 80px 0;
 }
 
 #contact img#contact-img {
@@ -172,10 +179,10 @@ header h2 span {
 }
 
 #contact a { 
-    color: #C49075;
+    color: #8d8889;
     font-size: 28px;
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 #contact ul {
@@ -190,3 +197,48 @@ header h2 span {
     font-size: 32px;
     padding-right: 48px;
 }
+
+/****** Projects Page Styles ******/
+
+
+/****** Projects Page Header Styles ******/
+
+.projects-hero {
+    background-color: #f9efef;
+}
+
+/****** Projects Page Projects Styles ******/
+
+#proj-section {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+#proj-section .full-width {
+    padding: 80px 0;
+}
+
+#proj-section .third-width {
+    float: left;
+}
+
+#proj-section img {
+    padding-bottom: 30px;
+    height: 200px;
+    width: 300px;
+}
+
+#proj-section h3 {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0 auto;
+    width: 300px;
+}
+
+#proj-section p {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 50px;
+}
+
